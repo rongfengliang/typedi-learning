@@ -1,0 +1,19 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.11"
+  },
+  "scripts": {
+    "live": "tsc -w",
+    "name": "node dist/name",
+    "func": "node app",
+    "service": "node dist/ts/service/demo"
+  }
+}

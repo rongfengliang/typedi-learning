@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "target": "es5",                          
+    "module": "commonjs",                    
+    "outDir": "./dist",                         
+    "strict": false,                           
+    "esModuleInterop": true,               
+    "experimentalDecorators": true,         
+    "emitDecoratorMetadata": true,
+    "removeComments": true    
+  }
+}
